@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="se.jku.at.ubifood.MainMenu">
+
+    <include layout="@layout/base_layout" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        style="@style/def_RelativeLayout"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Menu"
+                android:layout_width="wrap_content"
+                android:id="@+id/bMenu"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="14sp"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:text="Users"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/bUsers"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Orders"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/bOrders"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+
+            <Button
+                android:text="Settings"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/bSettings"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Recipes"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/bRecipes"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+
+            <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button9"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:visibility="invisible"
+                android:backgroundTint="@android:color/holo_red_dark" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</android.support.design.widget.CoordinatorLayout>
