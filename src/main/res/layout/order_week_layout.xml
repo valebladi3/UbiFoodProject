@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="X"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_width="36dp"
+        android:elevation="0dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:text="{0}"
+        android:layout_height="wrap_content"
+        android:id="@+id/tAmount"
+        android:layout_weight="0.53"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_light"
+        android:layout_width="5dp" />
+
+
+    <TextView
+        android:text="{1}"
+        android:layout_height="wrap_content"
+        android:id="@+id/tItemName"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_light"
+        android:layout_width="70dp" />
+
+    <TextView
+        android:text="{2}"
+        android:layout_height="wrap_content"
+        android:id="@+id/tItemConst"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_light"
+        android:layout_width="50dp" />
+
+</LinearLayout>

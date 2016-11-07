@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="se.jku.at.ubifood.Order.OrderMenu">
+
+    <include layout="@layout/base_layout" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        style="@style/def_RelativeLayout"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/print"
+            android:id="@+id/bPrint"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/one"
+            android:id="@+id/bOne"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/all"
+            android:id="@+id/bAll"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

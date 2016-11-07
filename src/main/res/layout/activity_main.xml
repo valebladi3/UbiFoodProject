@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="se.jku.at.ubifood.MenuPlan.MenuPlan">
+
+    <include layout="@layout/base_layout" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        style="@style/def_RelativeLayout"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Week Plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="Monday \n   - Pasta \n   - Salmon Fillet \n   - Fruit Crumble"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.03"
+            android:elevation="21dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="Tuesday \n   - Cherry Salad \n   - Lasagne \n   - Caramel Cake"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.03"
+            android:elevation="21dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="Wednesday \n   - Potatoe Soup \n   - Pork lion \n   - Pavlova"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.03"
+            android:elevation="21dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:text="Thursady \n   - Tomatoe Soup \n   - Chiken Curry \n   - Lemon Pay"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.03"
+            android:elevation="21dp"
+            android:textSize="16sp" />
+        <TextView
+            android:text="Friday \n   - Cesar Salad \n   - Roast Beef \n   - Chessecake"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.03"
+            android:elevation="21dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
